@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB85E23A1A14C42900EA143F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E2391A14C42900EA143F /* Foundation.framework */; };
+		CB85E23C1A14C42900EA143F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E23B1A14C42900EA143F /* CoreGraphics.framework */; };
+		CB85E23E1A14C42900EA143F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E23D1A14C42900EA143F /* UIKit.framework */; };
+		CB85E2441A14C42A00EA143F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB85E2421A14C42A00EA143F /* InfoPlist.strings */; };
+		CB85E2461A14C42A00EA143F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85E2451A14C42A00EA143F /* main.m */; };
+		CB85E24A1A14C42A00EA143F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85E2491A14C42A00EA143F /* AppDelegate.m */; };
+		CB85E24D1A14C42A00EA143F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB85E24B1A14C42A00EA143F /* Main.storyboard */; };
+		CB85E2501A14C42A00EA143F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85E24F1A14C42A00EA143F /* ViewController.m */; };
+		CB85E2521A14C42A00EA143F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB85E2511A14C42A00EA143F /* Images.xcassets */; };
+		CB85E2591A14C42A00EA143F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E2581A14C42A00EA143F /* XCTest.framework */; };
+		CB85E25A1A14C42A00EA143F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E2391A14C42900EA143F /* Foundation.framework */; };
+		CB85E25B1A14C42A00EA143F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB85E23D1A14C42900EA143F /* UIKit.framework */; };
+		CB85E2631A14C42A00EA143F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB85E2611A14C42A00EA143F /* InfoPlist.strings */; };
+		CB85E2651A14C42A00EA143F /* RQMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85E2641A14C42A00EA143F /* RQMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB85E25C1A14C42A00EA143F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB85E22E1A14C42900EA143F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB85E2351A14C42900EA143F;
+			remoteInfo = RQMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB85E2361A14C42900EA143F /* RQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB85E2391A14C42900EA143F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB85E23B1A14C42900EA143F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB85E23D1A14C42900EA143F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB85E2411A14C42A00EA143F /* RQMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RQMusic-Info.plist"; sourceTree = "<group>"; };
+		CB85E2431A14C42A00EA143F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB85E2451A14C42A00EA143F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB85E2471A14C42A00EA143F /* RQMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RQMusic-Prefix.pch"; sourceTree = "<group>"; };
+		CB85E2481A14C42A00EA143F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB85E2491A14C42A00EA143F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB85E24C1A14C42A00EA143F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB85E24E1A14C42A00EA143F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB85E24F1A14C42A00EA143F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB85E2511A14C42A00EA143F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB85E2571A14C42A00EA143F /* RQMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RQMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB85E2581A14C42A00EA143F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB85E2601A14C42A00EA143F /* RQMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RQMusicTests-Info.plist"; sourceTree = "<group>"; };
+		CB85E2621A14C42A00EA143F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB85E2641A14C42A00EA143F /* RQMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB85E2331A14C42900EA143F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E23C1A14C42900EA143F /* CoreGraphics.framework in Frameworks */,
+				CB85E23E1A14C42900EA143F /* UIKit.framework in Frameworks */,
+				CB85E23A1A14C42900EA143F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB85E2541A14C42A00EA143F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E2591A14C42A00EA143F /* XCTest.framework in Frameworks */,
+				CB85E25B1A14C42A00EA143F /* UIKit.framework in Frameworks */,
+				CB85E25A1A14C42A00EA143F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB85E22D1A14C42900EA143F = {
+			isa = PBXGroup;
+			children = (
+				CB85E23F1A14C42900EA143F /* RQMusic */,
+				CB85E25E1A14C42A00EA143F /* RQMusicTests */,
+				CB85E2381A14C42900EA143F /* Frameworks */,
+				CB85E2371A14C42900EA143F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB85E2371A14C42900EA143F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2361A14C42900EA143F /* RQMusic.app */,
+				CB85E2571A14C42A00EA143F /* RQMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB85E2381A14C42900EA143F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2391A14C42900EA143F /* Foundation.framework */,
+				CB85E23B1A14C42900EA143F /* CoreGraphics.framework */,
+				CB85E23D1A14C42900EA143F /* UIKit.framework */,
+				CB85E2581A14C42A00EA143F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB85E23F1A14C42900EA143F /* RQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2481A14C42A00EA143F /* AppDelegate.h */,
+				CB85E2491A14C42A00EA143F /* AppDelegate.m */,
+				CB85E24B1A14C42A00EA143F /* Main.storyboard */,
+				CB85E24E1A14C42A00EA143F /* ViewController.h */,
+				CB85E24F1A14C42A00EA143F /* ViewController.m */,
+				CB85E2511A14C42A00EA143F /* Images.xcassets */,
+				CB85E2401A14C42A00EA143F /* Supporting Files */,
+			);
+			path = RQMusic;
+			sourceTree = "<group>";
+		};
+		CB85E2401A14C42A00EA143F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2411A14C42A00EA143F /* RQMusic-Info.plist */,
+				CB85E2421A14C42A00EA143F /* InfoPlist.strings */,
+				CB85E2451A14C42A00EA143F /* main.m */,
+				CB85E2471A14C42A00EA143F /* RQMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB85E25E1A14C42A00EA143F /* RQMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2641A14C42A00EA143F /* RQMusicTests.m */,
+				CB85E25F1A14C42A00EA143F /* Supporting Files */,
+			);
+			path = RQMusicTests;
+			sourceTree = "<group>";
+		};
+		CB85E25F1A14C42A00EA143F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB85E2601A14C42A00EA143F /* RQMusicTests-Info.plist */,
+				CB85E2611A14C42A00EA143F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB85E2351A14C42900EA143F /* RQMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB85E2681A14C42A00EA143F /* Build configuration list for PBXNativeTarget "RQMusic" */;
+			buildPhases = (
+				CB85E2321A14C42900EA143F /* Sources */,
+				CB85E2331A14C42900EA143F /* Frameworks */,
+				CB85E2341A14C42900EA143F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQMusic;
+			productName = RQMusic;
+			productReference = CB85E2361A14C42900EA143F /* RQMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB85E2561A14C42A00EA143F /* RQMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB85E26B1A14C42A00EA143F /* Build configuration list for PBXNativeTarget "RQMusicTests" */;
+			buildPhases = (
+				CB85E2531A14C42A00EA143F /* Sources */,
+				CB85E2541A14C42A00EA143F /* Frameworks */,
+				CB85E2551A14C42A00EA143F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB85E25D1A14C42A00EA143F /* PBXTargetDependency */,
+			);
+			name = RQMusicTests;
+			productName = RQMusicTests;
+			productReference = CB85E2571A14C42A00EA143F /* RQMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB85E22E1A14C42900EA143F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sen5labs;
+				TargetAttributes = {
+					CB85E2561A14C42A00EA143F = {
+						TestTargetID = CB85E2351A14C42900EA143F;
+					};
+				};
+			};
+			buildConfigurationList = CB85E2311A14C42900EA143F /* Build configuration list for PBXProject "RQMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB85E22D1A14C42900EA143F;
+			productRefGroup = CB85E2371A14C42900EA143F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB85E2351A14C42900EA143F /* RQMusic */,
+				CB85E2561A14C42A00EA143F /* RQMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB85E2341A14C42900EA143F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E2521A14C42A00EA143F /* Images.xcassets in Resources */,
+				CB85E2441A14C42A00EA143F /* InfoPlist.strings in Resources */,
+				CB85E24D1A14C42A00EA143F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB85E2551A14C42A00EA143F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E2631A14C42A00EA143F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB85E2321A14C42900EA143F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E2501A14C42A00EA143F /* ViewController.m in Sources */,
+				CB85E24A1A14C42A00EA143F /* AppDelegate.m in Sources */,
+				CB85E2461A14C42A00EA143F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB85E2531A14C42A00EA143F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85E2651A14C42A00EA143F /* RQMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB85E25D1A14C42A00EA143F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB85E2351A14C42900EA143F /* RQMusic */;
+			targetProxy = CB85E25C1A14C42A00EA143F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB85E2421A14C42A00EA143F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB85E2431A14C42A00EA143F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB85E24B1A14C42A00EA143F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB85E24C1A14C42A00EA143F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB85E2611A14C42A00EA143F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB85E2621A14C42A00EA143F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB85E2661A14C42A00EA143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB85E2671A14C42A00EA143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB85E2691A14C42A00EA143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQMusic/RQMusic-Prefix.pch";
+				INFOPLIST_FILE = "RQMusic/RQMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB85E26A1A14C42A00EA143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQMusic/RQMusic-Prefix.pch";
+				INFOPLIST_FILE = "RQMusic/RQMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB85E26C1A14C42A00EA143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RQMusic.app/RQMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQMusic/RQMusic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RQMusicTests/RQMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB85E26D1A14C42A00EA143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RQMusic.app/RQMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RQMusic/RQMusic-Prefix.pch";
+				INFOPLIST_FILE = "RQMusicTests/RQMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB85E2311A14C42900EA143F /* Build configuration list for PBXProject "RQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB85E2661A14C42A00EA143F /* Debug */,
+				CB85E2671A14C42A00EA143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB85E2681A14C42A00EA143F /* Build configuration list for PBXNativeTarget "RQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB85E2691A14C42A00EA143F /* Debug */,
+				CB85E26A1A14C42A00EA143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB85E26B1A14C42A00EA143F /* Build configuration list for PBXNativeTarget "RQMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB85E26C1A14C42A00EA143F /* Debug */,
+				CB85E26D1A14C42A00EA143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB85E22E1A14C42900EA143F /* Project object */;
+}
